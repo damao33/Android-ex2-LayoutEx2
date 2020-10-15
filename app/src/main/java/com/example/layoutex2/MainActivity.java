@@ -36,7 +36,21 @@ public class MainActivity extends AppCompatActivity {
                 {
                     int index = city.indexOf(cb.getText().toString());
                     int len = cb.getText().length();
-                    city = city.substring(0,index-1)+city.substring(index+len);
+                    if(city.length()==len)
+                    {
+                        city="";
+                    }
+                    else
+                    {
+                        if(index!=0)
+                        {
+                            city = city.substring(0, index - 1) + city.substring(index + len);
+                        }
+                        else
+                        {
+                            city = city.substring(len+1);
+                        }
+                    }
                 }
                 Toast.makeText(MainActivity.this, str+city, Toast.LENGTH_SHORT).show();
             }
