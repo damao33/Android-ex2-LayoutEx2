@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/text1" />
+    <CheckBox
+        android:id="@+id/cb_bj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/beijing"
+        android:textSize="40sp"/>
+    <CheckBox
+        android:id="@+id/cb_sh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shanghai"
+        android:textSize="40sp"/>
+    <CheckBox
+        android:id="@+id/cb_sz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shenzhen"
+        android:textSize="40sp"/>
+    <CheckBox
+        android:id="@+id/cb_gz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guangzhou"
+        android:textSize="40sp"/>
+
+</LinearLayout>

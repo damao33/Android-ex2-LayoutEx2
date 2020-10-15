@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LayoutEx2</string>
+    <string name="text1">选择你喜欢的城市：</string>
+    <string name="beijing">北京</string>
+    <string name="shanghai">上海</string>
+    <string name="guangzhou">广州</string>
+    <string name="shenzhen">深圳</string>
+</resources>
